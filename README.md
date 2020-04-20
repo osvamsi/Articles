@@ -4,7 +4,8 @@
 
 ### Deep learning articles/Videos
  --- 
-
+ 1. [Disadvantages of RNN/LSTM **Date:April 20,2020**](https://towardsdatascience.com/the-fall-of-rnn-lstm-2d1594c74ce0)
+ 
 ### Python
 ---
 [![Genrators in Python](Images/generators.jpg)](https://www.youtube.com/watch?v=bD05uGo_sVI)
