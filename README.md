@@ -8,4 +8,9 @@
  
 ### Python
 ---
-[![Genrators in Python](Images/generators.jpg)](https://www.youtube.com/watch?v=bD05uGo_sVI)
+ 1. [![Genrators in Python](Images/generators.jpg)](https://www.youtube.com/watch?v=bD05uGo_sVI)
+
+
+### Stats
+---
+ 1. [![How to interepret p-values](Images/pvalues.jpg)](https://www.youtube.com/watch?v=vemZtEM63GY) 
