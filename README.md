@@ -5,6 +5,7 @@
 ### Deep learning articles/Videos
  --- 
  1. [Disadvantages of RNN/LSTM **Date:April 20,2020**](https://towardsdatascience.com/the-fall-of-rnn-lstm-2d1594c74ce0)
+ 2. [Intuition about RNN  **Date:April 23,2020**](https://towardsdatascience.com/illustrated-guide-to-recurrent-neural-networks-79e5eb8049c9)
  
 ### Python
 ---
@@ -15,3 +16,5 @@
 ### Stats
 ---
  1. [![How to interepret p-values](Images/pvalues.jpg)](https://www.youtube.com/watch?v=vemZtEM63GY) 
+
+
