@@ -11,6 +11,7 @@
 ---
  1. [![Genrators in Python](Images/generators.jpg)](https://www.youtube.com/watch?v=bD05uGo_sVI)
  2. [what is the use of if__name__ == "__main__" for ?](http://effbot.org/pyfaq/tutor-what-is-if-name-main-for.htm)
+ 3. [![Variable scopes in Python](Images/hqdefault.jpg)](https://www.youtube.com/watch?v=QVdf0LgmICw)
 
 
 ### Stats
