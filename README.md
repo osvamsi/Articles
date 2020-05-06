@@ -3,10 +3,11 @@
  1. [Limitations of current AI **Date:April 6,2020**](https://www.sicara.ai/blog/artificial-general-intelligence)
 
 ### Deep learning articles/Videos
- --- 
+---
  1. [Disadvantages of RNN/LSTM **Date:April 20,2020**](https://towardsdatascience.com/the-fall-of-rnn-lstm-2d1594c74ce0)
  2. [Intuition about RNN  **Date:April 23,2020**](https://towardsdatascience.com/illustrated-guide-to-recurrent-neural-networks-79e5eb8049c9)
- 
+  3. [Different optimizers **Date: May 5,2020**](https://towardsdatascience.com/how-to-train-neural-network-faster-with-optimizers-d297730b3713)
+
 ### Python
 ---
  1. [![Genrators in Python](Images/generators.jpg)](https://www.youtube.com/watch?v=bD05uGo_sVI)
