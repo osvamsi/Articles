@@ -15,6 +15,7 @@
  3. [![Variable scopes in Python](Images/hqdefault.jpg)](https://www.youtube.com/watch?v=QVdf0LgmICw)
  4. [![Exception Handling in Python](Images/exceptions.jpg)](https://www.youtube.com/watch?v=NIWwJbo-9_8)
  5. [![Logging in Python](Images/logging.jpg)](https://www.youtube.com/watch?v=NIWwJbo-9_8)
+ 6. [Encapsulation in python ](https://medium.com/better-programming/encapsulation-in-python-d76212d52478)
 
 
 ### Stats
