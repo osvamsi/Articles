@@ -62,7 +62,7 @@ we can convert the dot file into variety of formats such as PDF or PNG using the
 
 **PS**:if you are having issues using the above command there are free online services where you can upload your dot file and convert it to an image.
 
-![iris_tree.png](attachment:iris_tree.png)
+![iris_tree](Images/iris_tree.png)
 
 ## Making Predictions
 
@@ -89,7 +89,7 @@ Sci-kit learn uses CART algorithm which produces only binary trees. However,othe
 
 ### Decision boundary
 
-![decision_boundary.png](attachment:decision_boundary.png)
+![decision_boundary](Images/decision_boundary.png)
 
 The above figure shows decision trees decision boundaries. The thick vertical line represents the decision boundary of the root node(depth 0): petal length = 2.45 cm since the left area is pure (gini = 0) it cannot be split into any furthur. However the right area is impure so we need put our next decision boundary in this area i.e petal width = 1.75 cm diving the right area into two regions. Since the max_depth is set to 2 the tree stops after making this boundary. Incase if you set the max_depth = 3 then it would add another decision boundary represented by the dotted line.
 
@@ -127,7 +127,7 @@ The classification and Regression Tree training algorithm is used for training t
 
 * It searches for the pair (k,t) that produces the purest subsets(weighted by their size).The cost function that the algorithms tries to minimize is given by the equation below.
 
-![cart_cost_function.png](attachment:cart_cost_function.png)
+![cart_cost_function](Images/cart_cost_function.png)
 
 Once it has successfully split the training set in two, it splits the subsets using the same logic, recursively till it reaches max_depth(which is a hyperparameter that can be set) or until it cannot find a split that will reduce impurity.
 
@@ -145,14 +145,14 @@ To avoid decision trees to overfit the data we can use the **max_depth** paramet
 Hopefully by now you are convinced that Decision Trees have a lot going for them: they are simple to
 understand and interpret, easy to use, versatile, and powerful. However they do have a few limitations.First, as you may have noticed, Decision Trees love **orthogonal decision boundaries** (all splits are perpendicular to an axis), which makes them sensitive to **training set rotation.** For example, Below figure shows a simple linearly separable dataset: on the left, a Decision Tree can split it easily, while on the right, after the dataset is rotated by 45°, the decision boundary looks unnecessarily convoluted. Although both Decision Trees fit the training set perfectly, it is very likely that the model on the right will not generalize well. One way to limit this problem is to use **PCA**, which often results in a better orientation of the training data.
 
-![sensitivity_to_training_set_rotation.png](attachment:sensitivity_to_training_set_rotation.png)
+![sensitivity_to_training_set_rotation](Images/sensitivity_to_training_set_rotation.png)
 
 The main issue with Decision Trees is that they are very sensitive to small variations in
 the training data. For example, if you just remove the widest Iris-Versicolor from the iris training set (the one with petals 4.8 cm long and 1.8 cm wide) and train a new Decision Tree, you may get the model represented in figure below. As you can see, it looks very different from the previous Decision boundary Actually, since the training algorithm used by Scikit-Learn is stochastic you may get very
 different models even on the same training data (unless you set the random_state hyperparameter).
 
 
-![decision_boundary_2.png](attachment:decision_boundary_2.png)
+![decision_boundary_2](Images/decision_boundary_2.png)
 
 **Random forests can limit this instabilty problem by averaging predcitions many trees.**
 
